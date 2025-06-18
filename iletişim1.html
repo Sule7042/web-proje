@@ -38,14 +38,14 @@
     const mesajDiv = document.getElementById("mesajDurumu");
 
     form.addEventListener("submit", function (e) {
-        e.preventDefault(); // Sayfanın yenilenmesini engelle
+        e.preventDefault();
 
         mesajDiv.innerText = "Mesaj başarıyla gönderildi!";
         mesajDiv.style.color = "black";
         mesajDiv.style.marginTop = "10px";
         mesajDiv.style.fontSize= "25px"
 
-        // Formu sıfırla
+        
         form.reset();
     });
 </script>

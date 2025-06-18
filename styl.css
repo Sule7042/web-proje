@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;  
 }
-/* MENÜ KONTEYNER */
+
 .nav-container {
     top: 5px;
     background-color: #235396;
@@ -54,7 +54,7 @@
     transition: 0.3s ease;
 }
 
-/* Alt menü düzeltmeleri - SADECE BURASI DEĞİŞTİ */
+/* Alt menü */
 #Aktivite-content,
 #Ulaşım-content,
 #Yemek-content {
@@ -78,7 +78,7 @@
     transition: 0.4s ease;
 }
 
-/* Alt menü ile ana menü arasında bağlantı için boşluk */
+
 .menu li ul::before {
     content: "";
     display: block;
@@ -89,12 +89,10 @@
     height: 20px;
 }
 
-/* Alt menü hover durumunda açık kalsın */
 .menu li:hover ul {
     display: block;
 }
 
-/* MENÜ ÖĞELERİ ARASINDAKİ AYRAÇ */
 .menu li:not(:last-child)::after {
     content: "|";
     color: rgba(255, 255, 255, 0.3);
